@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+            android:id="@+id/action_settings"
+            android:enabled="true"
+            android:title="Cài đặt"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/action_convers"
+            android:enabled="true"
+            android:title="Hỏi đáp"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/action_notif"
+            android:enabled="true"
+            android:title="Nhắc nhở"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@+id/action_forum"
+            android:enabled="true"
+            android:title="Diễn đàn"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/action_thontin"
+            android:enabled="true"
+            android:title="Thông tin liên hệ"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/action_logout"
+            android:enabled="true"
+            android:title="Đăng xuất"
+            app:showAsAction="ifRoom" />
+    </group>
+
+
+    <item
+        android:title="Liên hệ team phát triển"
+        >
+        <menu>
+            <item
+                android:id="@+id/action_mail"
+                android:title="khuongan.tech@gmail.com"/>
+        </menu>
+    </item>
+
+</menu>
